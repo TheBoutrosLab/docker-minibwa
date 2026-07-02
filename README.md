@@ -1,51 +1,42 @@
-# docker-tool_name
-Template Repository for the Boutros Lab Dockerfiles based on mambaforge base image.
-
-The base image is pulled from https://hub.docker.com/r/condaforge/mambaforge
-
-# Documentation
-Docker introduction [here](https://uclahs-cds.atlassian.net/wiki/spaces/BOUTROSLAB/pages/3190419/Docker+Introduction)
-
-Dockerfile Best Practices [here](https://uclahs-cds.atlassian.net/wiki/spaces/BOUTROSLAB/pages/3189770/Dockerfile+Best+Practices)
-
-Docker image versioning standard [here](https://uclahs-cds.atlassian.net/wiki/spaces/BOUTROSLAB/pages/3188472/Docker+image+versioning+standardization)
-
+# docker-minibwa
+Dockerfile for minibwa aligner.
 
 # Version
 | Tool | Version |
 |------|---------|
-|tool_name| X.X.X|
-|tool_name_2|X.X.X|
+| minibwa | 0.3 |
 
 ---
 
 ## Discussions
 
-- [Issue tracker](<link-to-issues-page>) to report errors and enhancement ideas.
-- Discussions can take place in [docker-<tool> Discussions](<link-to-discussions>)
-- [docker-<tool> pull requests](<link-to-pull-requests>) are also open for discussion
+- [Issue tracker](https://github.com/TheBoutrosLab/docker-minibwa/issues) to report errors and enhancement ideas.
+- Discussions can take place in [docker-minibwa Discussions](https://github.com/TheBoutrosLab/docker-minibwa/discussions).
+- [docker-minibwa pull requests](https://github.com/TheBoutrosLab/docker-minibwa/pulls) are also open for discussion.
 
 ---
 
 ## Contributors
 
-Please see list of [Contributors](<link-to-contributors-insights>) at GitHub.
+Please see the list of [Contributors](https://github.com/TheBoutrosLab/docker-minibwa/graphs/contributors) at GitHub.
 
 ---
 
 ## References
 
-1. Tool specific references can be listed here
+1. [minibwa GitHub repository](https://github.com/lh3/minibwa)
+2. [Bioconda package for minibwa](https://anaconda.org/bioconda/minibwa)
+3. Li H, Homer N. Fast genomic read alignment with minibwa. bioRxiv/arXiv preprint, 2026.
 
 ---
 
 ## License
 
-Author: Name1, Name2
+Author: Yash Patel
 
-[docker repo name] is licensed under the GNU General Public License version 2. See the file LICENSE for the terms of the GNU GPL license.
+`docker-minibwa` is licensed under the GNU General Public License version 2. See the file LICENSE for the terms of the GNU GPL license.
 
-<one line to give the program's name and a brief idea of what it does.>
+`docker-minibwa` provides a Dockerfile for minibwa.
 
 Copyright (C) 2026 Sanford Burnham Prebys Medical Discovery Institute ("Boutros Lab") All rights reserved.
 
