@@ -7,6 +7,13 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ---
 
+## [0.3_samtools-1.23] - 2026-07-06
+
+### Added
+- Add `SAMtools` to Docker
+
+---
+
 ## [0.3] - 2026-07-02
 
 ### Changed
