@@ -1,5 +1,5 @@
 ARG MINIFORGE_VERSION=26.1.1-2
-ARG UBUNTU_VERSION=24.04
+ARG SAMTOOLS_VERSION=1.23
 ARG CONDA_ENV_PATH=/opt/conda/envs/minibwa
 
 FROM condaforge/miniforge3:${MINIFORGE_VERSION} AS builder
@@ -13,7 +13,7 @@ RUN mamba create -qy -p ${CONDA_ENV_PATH} \
     minibwa==${MINIBWA_VERSION} && \
     mamba clean -afy
 
-FROM ubuntu:${UBUNTU_VERSION} AS final
+FROM ghcr.io/theboutroslab/samtools:${SAMTOOLS_VERSION} AS final
 
 ARG CONDA_ENV_PATH
 
@@ -21,10 +21,6 @@ COPY --from=builder ${CONDA_ENV_PATH} ${CONDA_ENV_PATH}
 
 ENV CONDA_ENV_PATH="${CONDA_ENV_PATH}" \
     PATH="${CONDA_ENV_PATH}/bin:${PATH}"
-
-# Add a new user/group called bldocker
-RUN groupadd -g 500001 bldocker && \
-    useradd -r -u 500001 -g bldocker bldocker
 
 # Change the default user to bldocker from root
 USER bldocker
