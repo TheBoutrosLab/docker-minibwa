@@ -7,10 +7,10 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ---
 
-## [0.3_samtools-1.23] - 2026-07-06
+## [0.4_samtools-1.24] - 2026-07-16
 
-### Added
-- Add `SAMtools` to Docker
+### Changed
+- Update `minibwa` to version `0.4`
 
 ---
 
@@ -18,6 +18,13 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ### Changed
 - Update `SAMtools` to version `1.24`
+
+---
+
+## [0.3_samtools-1.23] - 2026-07-06
+
+### Added
+- Add `SAMtools` to Docker
 
 ---
 
