@@ -4,7 +4,7 @@ Dockerfile for minibwa aligner.
 # Version
 | Tool | Version |
 |------|---------|
-| minibwa | 0.4 |
+| minibwa | 0.5 |
 | SAMtools | 1.24 |
 
 ---
