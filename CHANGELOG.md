@@ -7,6 +7,13 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ---
 
+## [0.5_samtools-1.24] - 2026-07-27
+
+### Changed
+- Update `minibwa` to version `0.5`
+
+---
+
 ## [0.4_samtools-1.24] - 2026-07-16
 
 ### Changed
