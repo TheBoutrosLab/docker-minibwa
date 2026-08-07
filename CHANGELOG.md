@@ -5,6 +5,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.7_samtools-1.24] - 2026-08-07
+
+### Changed
+- Update `minibwa` to version `0.7`
+- Build `minibwa` from the upstream `v0.7` release source tarball
+
+---
+
 ## [0.6_samtools-1.24] - 2026-07-31
 
 ### Changed
